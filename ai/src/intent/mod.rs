@@ -2,7 +2,7 @@ use Semco_core::block::IntentData;
 use rust_bert::pipelines::sequence_classification::SequenceClassificationModel;
 use tokenizers::Tokenizer;
 use tch::{Device, Tensor};
-
+ 
 #[derive(Debug, Clone)]
 pub struct Config {
     pub model_path: String,
