@@ -5,7 +5,7 @@ edition.workspace = true
 authors.workspace = true
 description = "AI intent processing for Semco blockchain"
 license.workspace = true
-
+ 
 [dependencies]
 Semco-core = { path = "../core" }
 tokio = { workspace = true }
