@@ -8,6 +8,7 @@ use std::time::{SystemTime, UNIX_EPOCH};
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub struct Target(pub [u8; 32]);
 
+
 impl Target {
     pub fn to_difficulty(&self) -> f64 {
         let max_target = [0xff; 32];
